@@ -1,0 +1,16 @@
+.Register {
+    display: flex;
+    background-color: #DFE6ED;
+    min-height: 100vh;;
+    .registeration-form {
+        width: 70%;
+        height: max-content;
+        padding: 40px;
+        margin: auto;
+        background-color: #fff;
+        font-size: 16px;
+        border: 1px solid;
+        border-radius: 6px;
+        box-shadow: 5px 5px #8888;
+    }
+}

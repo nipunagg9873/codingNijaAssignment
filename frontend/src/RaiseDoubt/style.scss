@@ -1,0 +1,54 @@
+.RaiseDoubt {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    width: 100%;
+    min-height: 100%;
+    
+    .heading-wrapper {
+        margin: 40px 0 24px 15%;
+    }
+    
+    .raise-doubt-form {
+        width: 70%;
+        height: max-content;
+        padding: 40px 40px 10px 40px;
+        margin: 0 auto;
+        background-color: #DFE6ED;
+        font-size: 16px;
+        border: 1px solid;
+        label {
+            margin: 0;
+            font-weight: 600;
+        }
+        .form-group {
+            margin: 40px 0;
+            .form-control {
+                height: 50px;
+                font-size: 24px;
+                &.description {
+                    font-size: 16px;    
+                }
+                &:focus {
+                    outline: none;
+                    box-shadow: none;
+                    border: 3px solid #6660F5;
+                }
+            }
+            &.submit-button {
+                display: flex;
+                .btn {
+                    height: 40px;
+                    width: 150px;
+                    background-color: #6660F5;
+                    color: #fff;
+                    border: none;
+                    margin: 20px;
+                    border-radius: 6px;
+                    cursor: pointer;
+                    margin: auto 0px auto auto;
+                }
+            }
+        }
+    }
+}

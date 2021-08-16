@@ -1,0 +1,28 @@
+.home-wrapper {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    width: 100%;
+    min-height: 100%;
+    
+    .heading-wrapper {
+        margin: 40px 0 0 5%;
+    }
+    .doubts-wrapper {
+        width: 90%;
+        margin: 0 auto;
+        .doubt-list {
+            display: flex;
+            flex-direction: column;
+            margin-top: 30px;
+            padding: 0;
+            .count-info {
+                width: 100%;
+                margin: auto;
+                span {
+                    float: right;
+                }
+            }
+        }
+    }
+}

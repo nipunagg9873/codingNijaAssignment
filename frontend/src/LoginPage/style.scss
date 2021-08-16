@@ -1,0 +1,26 @@
+.Login {
+    display: flex;
+    background-color: #DFE6ED;
+    min-height: 100vh;
+    .login-form {
+        width: 70%;
+        height: max-content;
+        padding: 40px;
+        margin: 10% auto auto auto;
+        background-color: #fff;
+        font-size: 16px;
+        border: 1px solid;
+        border-radius: 6px;
+        box-shadow: 5px 5px #8888;
+        .btn {
+            height: 40px;
+            width: 125px;
+            background-color: #6660F5;
+            color: #fff;
+            border: none;
+            margin: 20px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+    }
+}

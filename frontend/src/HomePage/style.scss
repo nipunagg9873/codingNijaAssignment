@@ -1,0 +1,61 @@
+.home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    .header {
+        min-height: 100px;
+        width: 100%;
+        display: flex;
+        z-index: 200;
+        box-shadow: 0 2px #8888;
+        position: fixed;
+        background-color: #DFE6ED;
+        top: 0;
+        .logo-holder {
+            margin: auto 20px;
+            .logo {
+                padding: 10px;
+                background: white;
+                border-radius: 6px;
+                width: 40px;
+            }
+        }
+        .tab-option {
+            margin: auto 0;
+            padding: 0 10px;
+            height: max-content;
+            display: flex;
+            a {
+                color: #293845;
+            }
+            &.divider {
+                border-left: 2px solid #293845;
+            }
+        }
+        .logout-button{
+            margin: auto 20px;
+            height: 40px;
+            width: 125px;
+            background-color: #6660F5;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            position: absolute;
+            top: 38px;
+            right: 20px;
+            justify-self: right;
+            display: flex;
+            a {
+                margin: auto;
+                color: #fff;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .page {
+        margin-top: 100px;
+        flex-grow: 1;
+    }
+}

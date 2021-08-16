@@ -1,0 +1,92 @@
+.doubt-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    background-color: #C3CFD9;
+    font-size: 16px;
+    margin: 0px auto 50px auto;
+    padding: 0;
+    border : 3px solid #8B9AA7;
+    &.solving {
+        min-height: calc(100vh - 280px);
+    }
+    .details-wrapper {
+        margin: 20px;
+        .doubt-header {
+            display: flex;
+            .resolved {
+                background-color: #8DD7CF;
+                border: 3px solid #55BAAE;
+                width: 200px;
+                font-size: 16px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .title-wrapper {
+                flex-grow: 1;
+                font-size: 24px;
+                margin-right: 20px;
+            }
+        }
+        .description-wrapper {
+            width: 100%;
+            font-size: 16px;
+            margin-left: 5px;
+        }
+        .info-wrapper {
+            margin-top: 20px;
+            height: max-content;
+            display: flex;
+            width: 100%;
+            justify-content: flex-end;
+        }
+        .answer {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+            .answer-text {
+                display: flex;
+                .answer-label {
+                    font-weight: 600;
+                    margin: 0 10px 0 0;
+                }
+            }
+        }
+    }
+    .comments {
+        border-top : 3px solid #8B9AA7;
+        padding: 20px;
+        .comments-list {
+            ul {
+                padding: 0;
+            }
+        }
+        .add-comment {
+            display: flex;
+            .comment-input {
+                flex-grow: 1;
+                margin-right: 20px;
+                border-radius: 3px;
+                border: 2px solid #8B9AA7;
+                box-shadow: 0 0 5px #8B9AA7;
+                padding-left: 20px;
+                &:focus {
+                    outline: none;
+                }
+            }
+            .add-comment {
+                border: 2px solid #8379F7;
+                color: #8379F7;
+                height: 40px;
+                border-radius: 3px;
+                box-shadow: 0 0 5px #8379f7;
+                display: flex;
+                align-items: center;
+                width: 150px;
+                justify-content: center;
+            }
+        }
+    }
+}

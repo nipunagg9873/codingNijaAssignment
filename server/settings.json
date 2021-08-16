@@ -1,0 +1,6 @@
+{
+    "mongo": {
+        "connectionString": "mongodb://localhost/codeNinja",
+        "secret": "SECRET_STRING"
+    }
+}
