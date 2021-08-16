@@ -81,6 +81,9 @@ function SolveDoubts(props) {
         doubts.filteredItems = doubts.items &&  _.filter( doubts.items, (doubt) => doubt.status === "open" || doubt.status === "escalated" );
     }
 
+    //TODO Need to add a view in case no doubts are present to solve
+    //TODO Loader has to be integrated when doubts are being loaded
+
     return (
         <div className="solve-doubts-wrapper">
             <div className="heading-wrapper">

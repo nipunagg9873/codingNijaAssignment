@@ -15,6 +15,8 @@ function Home(props) {
         dispatch(doubtActions.getAll());
     }, []);
 
+    //TODO Freshly raised doubts should come at top
+
     return (
         <div className="home-wrapper">
             <div className="heading-wrapper">

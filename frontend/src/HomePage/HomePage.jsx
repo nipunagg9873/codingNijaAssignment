@@ -30,6 +30,8 @@ function HomePage() {
         }
     }, []);
 
+    //TODO Need to add transitions among tabs
+
     return (
         <div className="home">
             <Router history={history}>
